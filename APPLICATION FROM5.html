@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>APPLICATION FORM</h1>
+    <form>
+        <div>
+            <p>1. Name: <input type="text" name="name"></p>
+        </div>
+        <div>
+            <p>2. Gender:</p>
+            <p>Male <input type="radio" name="gender" value="male"> Female <input type="radio" name="gender" value="female"></p>
+        </div>
+        <div>
+            <p>3. Educational Qualification: 
+                <select name="qualification">
+                    <option value="bachelors">Bachelors</option>
+                    <!-- Add more qualification options as needed -->
+                </select>
+            </p>
+        </div>
+        <div>
+            <p>4. Write in detail about your qualifications and experience if any:</p>
+            <textarea name="details" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <p>5. Enter the filename of your Biodata to be attached: <input type="file" name="biodata"></p>
+        </div>
+        <div>
+            <p><input type="submit" value="Submit"> <input type="reset" value="Cancel"></p>
+        </div>
+    </form>
+</body>
+</html>
